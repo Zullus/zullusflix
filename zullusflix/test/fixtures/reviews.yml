@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rating: 1
+  description: MyText
+  reviwable: one
+  reviwable_type: Reviwable
+  user: one
+
+two:
+  rating: 1
+  description: MyText
+  reviwable: two
+  reviwable_type: Reviwable
+  user: two
