@@ -1,5 +1,5 @@
 class Serie < ApplicationRecord
-  #include Highlightable
+  include Highlightable
   include PgSearch
   multisearchable against: [:title]
   belongs_to :category
